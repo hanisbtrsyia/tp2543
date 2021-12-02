@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+   <style>
+   	body {
+  	font: 15px Montserrat, sans-serif;
+  	line-height: 1.8;
+	}
+    .bg-1 {
+      background-color: #E8CEBF; 
+      color: #000000;
+ 	}
+ 	 .bg-2 {
+      background-color: #4F4846; 
+      color: #ffffff;
+    }
+    .bg-3 {
+        background-color: #FDF8F5; /* White */
+        color: #555555;
+    }
+     .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+     .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 3px;
+  	}
+  	.bg-4 {
+    background-color: #ffffff;
+    color: #ffffff;
+	}
+	footer .glyphicon {
+	    font-size: 20px;
+	    margin-bottom: 20px;
+	    color: #4F4846;
+	}
+  </style>
+</head>
+<body id="myPage">
+	<nav class="navbar navbar-default" style="background-color: #FDF8F5">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#hello">Hello</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#where">Where</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid bg-1 text-center" id="hello">
+	<h3><strong>Hello</strong></h3>
+	 <img src="myface2.jpg" width="25%" height="25%" class="img-responsive img-circle margin" style="display:inline">
+	<h3><strong>I'm Hanis</strong></h3>
+	</div>
+	<div class="container-fluid bg-2 text-center" id="who">
+	  <h3>Who Am I?</h3>
+	 <div class="row">
+	    <div class="col-sm-4">
+	      <p>A lover of sunsets.</p>
+	       <img src="myface5.jpg" class="img-responsive" alt="Image" style="display:inline">
+	    </div>
+	    <div class="col-sm-4">
+	      <p>Likes to draw but instead of art, she's currently studying Software Engineering. </p>
+	       <img src="drawing.jpg" class="img-responsive" alt="Image" style="display:inline">
+	    </div>
+	    <div class="col-sm-4">
+	      <p>Kinda scared of animals but never fail to hide my fear :p</p>
+	       <img src="myface3.jpg" class="img-responsive" alt="Image" style="display:inline">
+	    </div>
+	    </div>
+	</div>
+ 
+	<div class="container-fluid bg-3 text-center" id="where">
+	  <h3>Where To Find Me?</h3>
+	  <p>I'm not quite active on social media, but you can check out my <a href="https://www.instagram.com/hanisbtrsyia/">instagram</a> or my <a href="https://twitter.com/isyaninis">Twitter</a> to find me.</p>
+	   <a href="#" class="btn btn-default btn-lg">
+	    <span class="glyphicon glyphicon-search"></span> Search
+	  </a>
+	</div>
+	<div class="container-fluid" style="background-color: #DDAF94" id="contact">
+	  <h3 class="text-center">Contact Me</h3>
+	  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact me and I'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Kajang, Selangor</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +6012 3456789</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> a175218@siswa.ukm.edu.my</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <footer class="container-fluid bg4 text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Copyright © My Website 2021</p>
+</footer>
+</body>
+</html>
